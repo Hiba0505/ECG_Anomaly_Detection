@@ -1,0 +1,26 @@
+[
+  {
+    "model": "Autoencoder Dense",
+    "auc_roc": 0.5903,
+    "auc_pr": 0.8165,
+    "threshold": 0.024101
+  },
+  {
+    "model": "LSTM Autoencoder",
+    "auc_roc": 0.6872,
+    "auc_pr": 0.8605,
+    "threshold": 0.023225
+  },
+  {
+    "model": "Isolation Forest",
+    "auc_roc": 0.5402,
+    "auc_pr": 0.7794,
+    "threshold": 0.548411
+  },
+  {
+    "model": "One-Class SVM",
+    "auc_roc": 0.611,
+    "auc_pr": 0.7994,
+    "threshold": -41.18067
+  }
+]

@@ -1,0 +1,37 @@
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  signal_length: 187
+  test_size: 0.2
+  random_seed: 42
+
+training:
+  batch_size: 128
+  epochs: 50
+  learning_rate: 0.001
+  validation_split: 0.1
+
+autoencoder:
+  encoding_dim: 32
+  hidden_layers: [128, 64, 32]
+  dropout: 0.2
+
+lstm_autoencoder:
+  lstm_units: [128, 64]
+  encoding_dim: 32
+  timesteps: 187
+
+isolation_forest:
+  n_estimators: 200
+  contamination: 0.15
+  random_state: 42
+
+one_class_svm:
+  kernel: "rbf"
+  nu: 0.1
+  gamma: "scale"
+
+evaluation:
+  threshold_percentile: 95
+  output_dir: "outputs/results"
+  figures_dir: "outputs/figures"
