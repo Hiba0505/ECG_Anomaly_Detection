@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import json
 import os
 import joblib
-from tensorflow import keras
+import keras
 
 from auth import require_login
 
