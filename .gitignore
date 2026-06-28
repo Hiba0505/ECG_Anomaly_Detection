@@ -2,9 +2,6 @@
 data/raw/*.csv
 data/processed/*.npy
 
-# Modèles entraînés (lourds)
-outputs/models/*.keras
-outputs/models/*.pkl
 
 # Comptes utilisateurs (sensible)
 users_db.json
