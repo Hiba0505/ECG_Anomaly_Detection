@@ -1,13 +1,9 @@
+streamlit
 numpy
 pandas
 scikit-learn
-tensorflow
-keras
+tensorflow==2.15.0
 matplotlib
-seaborn
 plotly
-pyyaml
+scipy
 joblib
-tqdm
-jupyter
-streamlit
